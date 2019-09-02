@@ -10,8 +10,10 @@ import java.util.Optional;
 
 @Service
 public class CustomerService {
+    
     public static final String LAST = "2";
     public static final String FIRST = "1";
+
     @Autowired
     CustomerRepository repository;
 
